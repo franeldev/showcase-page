@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+body {
+  font-family: "Open Sans";
+}
+.navbar 
+{
+  padding-left: 0;
+}
+
+.logo img {/*
+  width: 90px;*/
+  height: 44.5px;
+}
+.nav-link {
+  color: #474747 !important;
+  padding-bottom: 5px;
+}
+.nav-link:hover{
+    color: #0062cc !important;
+}
+.menu a {
+  color: #213DCD;
+}
+
+.menu li {
+  padding-left: 2.5rem;
+  position: relative;
+}
+
+.fa-bars {
+  color: #000000;
+}
+
+.btn-primary
+{
+  background-color: #00AEFF;
+  border: 1px solid #00AEFF;
+  font-size: 14px;
+}
+.btn-primary:hover
+{
+  background-color: rgba(0, 105, 217, .68);
+  border: 1px solid rgba(0, 105, 217, .68);
+}
+.padding.hng
+{
+  padding-top: 3rem;
+}
+ h2
+{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  color: #084482;
+}
+.padding.hng p
+{
+  color: #474747;
+}
+.col-lg-6.hng
+{
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  max-width: 50% !important;
+  flex: 0 0 50%;
+  padding-right: 0 !important;
+  z-index: -2;
+}
+.col-lg-6.hng img
+{
+  width: 100%;
+}
+.background 
+{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 40vw;
+    float: left;
+}
+.jumbotron
+{
+  border-radius: 0;
+}
+.jumbotron {
+    padding: 3rem 2rem;
+    background-color: rgba(196, 196, 196, 0.1);
+}
+.jumb {
+    padding: 3rem 2rem;
+}
+.img-fluid.euro {
+    width: 100%;
+    height: auto;
+}
+div.col-md-12 p
+{
+  color: #333333;
+}/*
+.col-md-12 p{
+  font-size: 1.1rem;
+}*/
+h4
+{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  padding-bottom: .7rem;
+  color: #00AEFF;
+}
+div .col-xs-6.col-md-3 a p
+{
+  margin-bottom: .5rem;
+  color: #00AEFF;
+}
+div .col-xs-6.col-md-3 a p:hover
+{
+  color: #0062cc !important;
+}
+div .col-xs-6.col-md-3 p b
+{
+  color: #737373;
+}
+div .col-xs-6.col-md-3 p
+{
+  margin-bottom: .2rem;
+}
+div .col-xs-6.col-md-3 p a
+{
+  color: #737373 !important;
+}
+div .col-xs-6.col-md-3 p a:hover
+{
+  color: #0062cc !important;
+}
+
+footer {
+    background-color: #FAFAFA;
+}
+.padding.hng .col-xs-6.col-md-3 p {
+    color: #737373;
+}
+.social a img:hover
+{
+  border: unset;
+  border-radius: 50%;
+  background: linear-gradient(to bottom,rgba(150,150,150,.1), rgba(0, 105, 217, .2)) !important;
+}
+h5 {
+  color: #8898AA;
+  font-size: 16px; 
+}
+
+
+/* Responsive styling */
+@media screen and (max-width: 992px) {
+  .h2, h2 {
+    font-size: 1.5rem;
+  }
+  h2.text-left, .pt-1, .py-1, .mt-1, .my-1 {
+    padding-top: .01vh!important;
+    margin-top: .01vh!important;
+  }
+  .col-md-12 p {
+    font-size: .96rem;
+}
+p {
+  font-size: .9rem;
+  margin-bottom: .8vh;
+}
+.btn-primary {
+    font-size: .8rem;
+    padding: 5px 12px;
+}
+.display-4 {
+    font-size: 2.5rem;
+}
+@media screen and (max-width: 991px) {
+      .menu li {
+        padding-left: unset;
+    }
+      .nav-link {
+        width: fit-content;
+        padding-right: .3rem !important;
+    }
+    div.social.padding a img {
+    max-width: 23%;
+    height: auto;
+    }
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  .h2, h2 {
+    font-size: 1.2rem;
+  }
+  .col-md-12 p {
+    font-size: .9rem;
+}
+p {
+  font-size: .9rem;
+}
+.btn-primary {
+    font-size: .6rem;
+    padding: 3px 10px;
+}
+.jumbotron .col-md-6 img
+{
+  padding-top: 1.5rem;
+}
+.col-xs-6
+{
+  max-width: 50% !important;
+  flex: 0 0 50%;
+}
+
+h5 {
+  font-size: 14px; 
+}
+h4
+{
+  font-size: 1.1rem;
+}
+.padding.hng {
+    padding-top: 2rem;
+}
+div.col-12.float-left.pt-2 img {
+    max-width: 170px;
+    height: auto;
+}
+div.social.padding a img {
+  max-width: 15%;
+  height: auto;
+}
+
+.navbar 
+{
+  padding-left: 15px;
+}
+.background .row.padding.hng
+{
+  margin-left: 0;
+}
+.row.padding.pb-5.mb-5
+{
+  margin-left: 0;
+}
+@media screen and (max-width: 600px){
+footer .row.padding.hng {
+    padding: 0rem 2rem;
+      }
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .btn-primary
+  {
+    font-size: .8rem;
+  }
+p {
+  font-size: .8rem;
+}
+.padding.hng {
+    padding-top: 1rem;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {   
+  h5 {
+    font-size: 11px; 
+  }
+
+
+}
