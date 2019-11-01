@@ -77,15 +77,14 @@ body {
   width: 100%;
 }
 .background 
-{
+{/*
     margin: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    object-fit: cover;
+    object-fit: cover;*/
     width: 100%;
-    height: 40vw;
-    float: left;
+    padding-bottom: 20%;
 }
 .jumbotron
 {
@@ -170,6 +169,11 @@ h5 {
     padding-top: .01vh!important;
     margin-top: .01vh!important;
   }
+  .background 
+  {
+      width: 100%;
+      padding-bottom: 14%;
+  }
   .col-md-12 p {
     font-size: .96rem;
 }
@@ -201,6 +205,11 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  .background 
+  {
+      width: 100%;
+      padding-bottom: 12%;
+  }
   .logo img {
     max-width: 150px;
     height: auto;
@@ -238,7 +247,7 @@ h4
 .padding.hng {
     padding-top: 2rem;
 }
-div.col-12.float-left.pt-2 img {
+div.col-12.pt-2 img {
     max-width: 170px;
     height: auto;
 }
@@ -269,6 +278,11 @@ footer .row.padding.hng {
 }
 
 @media screen and (max-width: 576px) {
+  .background 
+  {
+      width: 100%;
+      padding-bottom: 9%;
+  }
   .btn-primary
   {
     font-size: .8rem;
